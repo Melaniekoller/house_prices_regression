@@ -91,9 +91,9 @@ This project performs **house price analysis** using a dataset of real estate pr
 - matplotlib / seaborn (for visualizations in the notebook)
 
 **Author**
-Koller Melanie Turinabo
-Third-year Computer Science & Systems Engineering student
-[kollermelaniet@gmail.com] | (https://www.linkedin.com/in/koller-melanie-turinabo-963289309/)
+- Koller Melanie Turinabo
+- Third-year Computer Science & Systems Engineering student
+- [kollermelaniet@gmail.com] | (https://www.linkedin.com/in/koller-melanie-turinabo-963289309/)
 
 **License**
 This project is for educational purposes. Please do not redistribute without permission.
