@@ -96,5 +96,6 @@ This project performs **house price analysis** using a dataset of real estate pr
 - [kollermelaniet@gmail.com] | (https://www.linkedin.com/in/koller-melanie-turinabo-963289309/)
 
 **License**
+
 This project is for educational purposes. Please do not redistribute without permission.
 
