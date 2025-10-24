@@ -10,25 +10,23 @@ This repository contains a complete workflow for analyzing, predicting, and depl
 
 ## Project Structure
 
-house_prices_regression/
-│
-├── data/
-│   ├── real_estate_dataset.csv           # Original dataset from Kaggle
-│   ├── real_estate_dataset copy.csv      # Copy of the original dataset (good practice)
-│   └── cleaned_realEstate.csv            # Cleaned dataset (processed using Excel)
-│
-├── notebooks/
-│   └── house_prices_analysis.ipynb       # Jupyter Notebook with:
-│       - Exploratory Data Analysis (EDA)
-│       - Model training and evaluation
-│       - Model deployment code
-│
-├── housePricesApp/
-│   ├── app.py                            # Streamlit web app to launch the model
-│   ├── requirements.txt                  # Python dependencies for Streamlit app
-│   └── house_prices_model.pkl            # Serialized trained ML model
-│
-└── README.md                             # Project documentation
+- **data/**
+  - `real_estate_dataset.csv` — Original dataset from Kaggle  
+  - `real_estate_dataset copy.csv` — Copy of the original dataset (good practice)  
+  - `cleaned_realEstate.csv` — Cleaned dataset (processed using Excel)  
+
+- **notebooks/**
+  - `house_prices_analysis.ipynb` — Jupyter Notebook with:  
+    - Exploratory Data Analysis (EDA)  
+    - Model training and evaluation  
+    - Model deployment code  
+
+- **housePricesApp/**
+  - `app.py` — Streamlit web app to launch the model  
+  - `requirements.txt` — Python dependencies for Streamlit app  
+  - `house_prices_model.pkl` — Serialized trained ML model  
+
+- `README.md` — Project documentation  
 
 
 ---
