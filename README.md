@@ -13,7 +13,8 @@ This repository contains a complete workflow for analyzing, predicting, and depl
 - **data/**
   - `real_estate_dataset.csv` — Original dataset from Kaggle  
   - `real_estate_dataset copy.csv` — Copy of the original dataset (good practice)  
-  - `cleaned_realEstate.csv` — Cleaned dataset (processed using Excel)  
+  - `cleaned_realEstate.csv` — Cleaned dataset (processed using Excel)
+  - `realEstateWorkbook.twb` — Tableau workbook with visualizations  
 
 - **notebooks/**
   - `house_prices_analysis.ipynb` — Google Colab Notebook with:  
