@@ -16,7 +16,7 @@ This repository contains a complete workflow for analyzing, predicting, and depl
   - `cleaned_realEstate.csv` — Cleaned dataset (processed using Excel)  
 
 - **notebooks/**
-  - `house_prices_analysis.ipynb` — Jupyter Notebook with:  
+  - `house_prices_analysis.ipynb` — Google Colab Notebook with:  
     - Exploratory Data Analysis (EDA)  
     - Model training and evaluation  
     - Model deployment code  
