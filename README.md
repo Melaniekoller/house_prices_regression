@@ -1,4 +1,4 @@
-# House Price Analysis Project 🏠
+# House Price Prediction Project 🏠
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-orange)](https://streamlit.io/)
@@ -12,9 +12,10 @@ This repository contains a complete workflow for analyzing, predicting, and depl
 
 - **data/**
   - `real_estate_dataset.csv` — Original dataset from Kaggle  
-  - `real_estate_dataset copy.csv` — Copy of the original dataset (good practice)  
+  - `real_estate_datasetCOPY.csv` — Copy of the original dataset (good practice)  
   - `cleaned_realEstate.csv` — Cleaned dataset (processed using Excel)
-  - `realEstateWorkbook.twb` — Tableau workbook with visualizations  
+  - `realEstateWorkbook.twb` — Tableau workbook with visualizations
+  - `House_Price_Prediction_Presentation_Slides.pdf` - Slides summarizing the project, key analyses, and insights.
 
 - **notebooks/**
   - `house_prices_analysis.ipynb` — Google Colab Notebook with:  
