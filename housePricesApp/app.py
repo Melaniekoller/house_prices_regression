@@ -2,10 +2,10 @@ import streamlit as st # Import Streamlit for building the web app interface
 import pandas as pd
 import joblib # Import joblib for loading the saved ML model and scaler
 
-#  Load the trained machine learning model and the feature scaler
-model_data = joblib.load('house_prices_model.pkl') # Load serialized file (contains both model and scaler)
-model = model_data['model'] # Extract the trained regression model
-scaler = model_data['scaler']  # Extract the scaler used during training
+#  Load the trained machine learning model a
+saved = joblib.load('house_prices_model.pkl')
+model = saved['model']
+scaler = saved['scaler']
 
 # App title and introduction text
 st.title("🏠 House Price Prediction App")
@@ -54,12 +54,12 @@ features = pd.DataFrame({
     'Distance_to_Center': [distance_to_center]
 })
 
-#  Apply the same scaling transformation as used during training
-scaled_features = scaler.transform(features)
+# Before predicting:
+features_scaled = scaler.transform(features)
 
 # Prediction -- When user clicks "Predict Price", model generates price output
 if st.button("Predict Price"):
-    prediction = model.predict(scaled_features)
+    prediction = model.predict(features_scaled)
     st.success(f"💰 Estimated House Price: {prediction[0]:,.4f}")
 
 # Embed Tableau dashboard
@@ -75,3 +75,5 @@ tableau_url = "https://public.tableau.com/views/realEstate_17592102423330/HouseP
 
 # Display the Tableau dashboard inside the Streamlit app
 st.components.v1.iframe(tableau_url, width=1000, height=827)
+
+# chart interactive; change with the input fields
