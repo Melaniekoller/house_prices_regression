@@ -76,4 +76,3 @@ tableau_url = "https://public.tableau.com/views/realEstate_17592102423330/HouseP
 # Display the Tableau dashboard inside the Streamlit app
 st.components.v1.iframe(tableau_url, width=1000, height=827)
 
-# chart interactive; change with the input fields
